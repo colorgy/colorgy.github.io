@@ -1,0 +1,635 @@
+/* line 1, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/* line 6, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+html,
+body {
+  height: 100%;
+  background-color: #00cfe4; }
+
+/* line 11, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+body {
+  color: #fff;
+  text-align: center; }
+
+/* line 15, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+p {
+  font-size: 18px;
+  letter-spacing: 2px; }
+
+/* line 19, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.breakShow {
+  display: none; }
+
+/* line 22, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.breakShowXS {
+  display: none; }
+
+/* line 25, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  background: linear-gradient(transparent, #000000), url("../images/cover.jpg") repeat fixed;
+  background-position: center;
+  background-size: cover; }
+
+/* line 34, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 38, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; }
+
+/* line 42, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.inner {
+  padding: 30px; }
+
+/* line 45, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.cover {
+  padding: 0 20px; }
+
+/* line 48, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.coverText {
+  width: 20%; }
+
+/* line 51, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.coverIcon {
+  position: absolute;
+  left: 48.5%;
+  right: 48.5%;
+  bottom: 30px;
+  width: 3%; }
+
+@media (min-width: 992px) {
+  /* line 60, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .cover-container {
+    width: 700px; } }
+/* line 65, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.majorTitle {
+  font-size: 40px;
+  padding-bottom: 5px; }
+
+/* line 69, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.minorTitle {
+  font-size: 18px;
+  line-height: 30px; }
+
+/* line 73, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.introImage {
+  width: 10%;
+  margin: 0px auto 50px auto; }
+
+/* line 77, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.introBlock {
+  background-color: #ffe100;
+  padding: 80px 0 30px 0; }
+
+/* line 81, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.introBlockRow {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  color: #717071; }
+
+/* line 88, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.introText {
+  padding: 0 250px;
+  text-align: left; }
+
+/* line 92, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosBlockTitleRow {
+  padding: 70px 15px 90px 15px;
+  background-color: #337AB7; }
+
+/* line 97, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosLeadIcon {
+  position: absolute;
+  left: 49%;
+  right: 49%;
+  bottom: 0px;
+  width: 2%;
+  -webkit-transform: translateY(30px); }
+
+/* line 105, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosTitle > p {
+  font-weight: bold;
+  font-size: 36px; }
+
+/* line 109, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosText {
+  background-color: #00cfe4;
+  padding: 30px 120px 50px 120px;
+  text-align: left; }
+
+/* line 114, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosTextLead {
+  margin: 20px 0;
+  font-size: 22px; }
+
+/* line 118, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage1 {
+  background: url("../images/prosImage1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 124, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage2 {
+  background: url("../images/prosImage2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 130, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage3 {
+  background: url("../images/prosImage3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 136, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage4 {
+  background: url("../images/prosImage4.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 143, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.benefitBlock {
+  background-color: #ffe100;
+  color: #717071; }
+
+/* line 147, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.benefitText1,
+.benefitText2,
+.benefitText3 {
+  margin: 80px 0px;
+  padding: 0px 60px; }
+
+/* line 154, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobBlock {
+  background-color: #ffe100; }
+
+/* line 157, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobCol {
+  padding: 0; }
+
+/* line 160, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer1 {
+  background: url("../images/job1.jpg") no-repeat center bottom 100%;
+  background-size: cover; }
+
+/* line 164, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer2 {
+  background: url("../images/job2.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 168, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer3 {
+  background: url("../images/job3.png") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 172, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer4 {
+  background: url("../images/job4.jpg") no-repeat left 100%;
+  background-size: cover; }
+
+/* line 176, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer5 {
+  background: url("../images/job5.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 180, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer6 {
+  background: url("../images/job6.png") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 184, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer7 {
+  background: url("../images/job7.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 188, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer8 {
+  background: url("../images/job8.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 192, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer9 {
+  background: url("../images/job9.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 196, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer10 {
+  background: url("../images/job10.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+@media (max-width: 767px) {
+  /* line 201, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer1 {
+    background: linear-gradient(transparent, #000000), url("../images/job1.jpg") no-repeat center bottom 100%;
+    background-size: cover; }
+
+  /* line 205, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer2 {
+    background: linear-gradient(transparent, #000000), url("../images/job2.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 209, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer3 {
+    background: linear-gradient(transparent, #000000), url("../images/job3.png") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 213, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer4 {
+    background: linear-gradient(transparent, #000000), url("../images/job4.jpg") no-repeat left 100%;
+    background-size: cover; }
+
+  /* line 217, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer5 {
+    background: linear-gradient(transparent, #000000), url("../images/job5.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 221, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer6 {
+    background: linear-gradient(transparent, #000000), url("../images/job6.png") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 225, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer7 {
+    background: linear-gradient(transparent, #000000), url("../images/job7.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 229, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer8 {
+    background: linear-gradient(transparent, #000000), url("../images/job8.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 233, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer9 {
+    background: linear-gradient(transparent, #000000), url("../images/job9.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 237, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer10 {
+    background: linear-gradient(transparent, #000000), url("../images/job10.jpg") no-repeat center 100%;
+    background-size: cover; } }
+/* line 242, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfo {
+  z-index: 3;
+  position: relative; }
+
+/* line 246, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.mask {
+  background: #00cfe4;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+/* line 264, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer:hover .mask {
+  opacity: 1; }
+
+/* line 269, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfo > p {
+  text-align: left;
+  margin-bottom: 10px; }
+
+/* line 273, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfoTitle {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 30px 24px 30px;
+  letter-spacing: 1px; }
+
+/* line 280, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #717071;
+  display: table; }
+
+/* line 288, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.footer > .container {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  height: 100px;
+  max-width: 680px;
+  padding: 0 15px; }
+
+/* line 296, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerText {
+  color: #ffffff;
+  font-size: 20px; }
+
+/* line 300, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerButton {
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 18px; }
+
+/* line 308, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerButton:hover {
+  background-color: #eeeeee;
+  text-decoration: none;
+  color: #717071; }
+
+@media (min-width: 768px) {
+  /* line 315, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .site-wrapper-inner {
+    vertical-align: middle; }
+
+  /* line 318, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .cover-container {
+    width: 100%; }
+
+  /* line 321, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center; }
+
+  /* line 333, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockRow {
+    -webkit-align-items: stretch;
+    align-items: stretch; }
+
+  /* line 337, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitBlockRow {
+    -webkit-align-items: flex-start;
+    align-items: flex-start; }
+
+  /* line 341, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobRow {
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+  /* line 348, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobCol {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+
+  /* line 355, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    top: 0;
+    height: auto;
+    opacity: 0;
+    padding: 40px;
+    text-align: left;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+  /* line 366, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer:hover .jobInfo {
+    opacity: 1; }
+
+  /* line 369, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo > p {
+    margin-bottom: 18px; } }
+@media (min-width: 1280px) {
+  /* line 374, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introBlockRow {
+    margin: 0 100px;
+    margin-bottom: 50px; } }
+@media (max-width: 1000px) {
+  /* line 380, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 383, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 30px 60px 40px 60px; } }
+@media (max-width: 767px) {
+  /* line 388, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .site-wrapper {
+    background: linear-gradient(transparent, #000000), url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover; }
+
+  /* line 395, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .breakShow {
+    display: inline; }
+
+  /* line 398, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockRow {
+    display: block; }
+
+  /* line 401, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    left: 48%;
+    right: 48%;
+    bottom: 0px;
+    width: 4%;
+    -webkit-transform: translateY(33px); }
+
+  /* line 408, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 150px 40px 150px; }
+
+  /* line 411, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 150px; }
+
+  /* line 414, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 150px; }
+
+  /* line 419, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfoTitle {
+    padding-top: 300px; }
+
+  /* line 422, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo > p {
+    margin-left: 25px;
+    margin-right: 25px; }
+
+  /* line 426, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footer > .container {
+    height: 150px; }
+
+  /* line 429, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footerButton {
+    margin: 0;
+    margin-top: 16px; }
+
+  /* line 434, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .defaultCoverText {
+    display: none; }
+
+  /* line 438, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .mask {
+    display: none; } }
+@media (max-width: 550px) {
+  /* line 443, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .coverText {
+    width: 40%; }
+
+  /* line 446, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 100px; }
+
+  /* line 449, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 27px; }
+
+  /* line 452, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    left: 47%;
+    right: 47%;
+    bottom: 0px;
+    width: 6%;
+    -webkit-transform: translateY(35px); }
+
+  /* line 459, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 100px 40px 100px; }
+
+  /* line 462, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 100px; }
+
+  /* line 467, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; } }
+@media (max-width: 418px) {
+  /* line 472, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  p {
+    font-size: 12px; }
+
+  /* line 475, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .breakShowXS {
+    display: inline; }
+
+  /* line 478, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introImage {
+    width: 30%; }
+
+  /* line 481, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 40px 0 50px; }
+
+  /* line 484, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockTitleRow {
+    padding: 45px 15px 60px 15px; }
+
+  /* line 487, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 24px; }
+
+  /* line 490, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    -webkit-transform: translateY(25px); }
+
+  /* line 493, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 45px 40px 50px; }
+
+  /* line 496, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 45px 0px 50px; }
+
+  /* line 501, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 504, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .coverText {
+    width: 50%; }
+
+  /* line 507, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .majorTitle {
+    font-size: 32px;
+    padding-bottom: 10px; }
+
+  /* line 511, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .minorTitle {
+    font-size: 16px; }
+
+  /* line 514, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footerText {
+    font-size: 14px; } }
+@media (max-width: 320px) {
+  /* line 519, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 522, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfoTitle {
+    padding-top: 250px; }
+
+  /* line 525, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 19px; } }
+/* line 530, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer {
+  position: relative;
+  padding: 12px 0; }
+
+/* line 535, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.defaultCoverText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2); }
+
+/* line 544, /Volumes/Transcend/Dropbox/projects/joinColorgyToday/source/stylesheets/main.css.scss */
+.defaultCoverText > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
