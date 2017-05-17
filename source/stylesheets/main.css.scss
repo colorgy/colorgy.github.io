@@ -1,0 +1,553 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  background-color: #00cfe4;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.breakShow {
+  display: none;
+}
+.breakShowXS {
+  display: none;
+}
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background: linear-gradient(transparent, #000000), image-url('cover.jpg') repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.inner {
+  padding: 30px;
+}
+.cover {
+  padding: 0 20px;
+}
+.coverText {
+  width: 20%;
+}
+.coverIcon {
+  position: absolute;
+  left: 48.5%;
+  right: 48.5%;
+  bottom: 30px;
+  width: 3%;
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    width: 700px;
+  }
+}
+
+.majorTitle {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+.minorTitle {
+  font-size: 18px;
+  line-height: 30px;
+}
+.introImage {
+  width: 10%;
+  margin: 0px auto 50px auto;
+}
+.introBlock {
+  background-color: #ffe100;
+  padding: 80px 0 30px 0;
+}
+.introBlockRow {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  color: #717071;
+}
+
+.introText {
+  padding: 0 250px;
+  text-align: left;
+}
+.prosBlockTitleRow {
+  padding: 70px 15px 90px 15px;
+  background-color: #337AB7;
+}
+
+.prosLeadIcon {
+  position: absolute;
+  left: 49%;
+  right: 49%;
+  bottom: 0px;
+  width: 2%;
+  -webkit-transform: translateY(30px);
+}
+.prosTitle > p {
+  font-weight: bold;
+  font-size: 36px;
+}
+.prosText {
+  background-color: #00cfe4;
+  padding: 30px 120px 50px 120px;
+  text-align: left;
+}
+.prosTextLead {
+  margin: 20px 0;
+  font-size: 22px;
+}
+.prosImage1 {
+  background: image-url('prosImage1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+.prosImage2 {
+  background: image-url('prosImage2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+.prosImage3 {
+  background: image-url('prosImage3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+.prosImage4 {
+  background: image-url('prosImage4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.benefitBlock {
+  background-color: #ffe100;
+  color: #717071;
+}
+.benefitText1,
+.benefitText2,
+.benefitText3 {
+  margin: 80px 0px;
+  padding: 0px 60px;
+}
+
+.jobBlock {
+  background-color: #ffe100;
+}
+.jobCol {
+  padding: 0;
+}
+.jobImageLayer1 {
+  background: image-url('job1.jpg') no-repeat center bottom 100%;
+  background-size: cover;
+}
+.jobImageLayer2 {
+  background: image-url('job2.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer3 {
+  background: image-url('job3.png') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer4 {
+  background: image-url('job4.jpg') no-repeat left 100%;
+  background-size: cover;
+}
+.jobImageLayer5 {
+  background: image-url('job5.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer6 {
+  background: image-url('job6.png') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer7 {
+  background: image-url('job7.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer8 {
+  background: image-url('job8.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer9 {
+  background: image-url('job9.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+.jobImageLayer10 {
+  background: image-url('job10.jpg') no-repeat center 100%;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .jobImageLayer1 {
+    background: linear-gradient(transparent, #000000), image-url('job1.jpg') no-repeat center bottom 100%;
+    background-size: cover;
+  }
+  .jobImageLayer2 {
+    background: linear-gradient(transparent, #000000), image-url('job2.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer3 {
+    background: linear-gradient(transparent, #000000), image-url('job3.png') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer4 {
+    background: linear-gradient(transparent, #000000), image-url('job4.jpg') no-repeat left 100%;
+    background-size: cover;
+  }
+  .jobImageLayer5 {
+    background: linear-gradient(transparent, #000000), image-url('job5.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer6 {
+    background: linear-gradient(transparent, #000000), image-url('job6.png') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer7 {
+    background: linear-gradient(transparent, #000000), image-url('job7.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer8 {
+    background: linear-gradient(transparent, #000000), image-url('job8.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer9 {
+    background: linear-gradient(transparent, #000000), image-url('job9.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer10 {
+    background: linear-gradient(transparent, #000000), image-url('job10.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+}
+.jobInfo{
+  z-index: 3;
+  position: relative;
+}
+.mask{
+  background: #00cfe4;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+
+.jobImageLayer:hover{
+  .mask{
+    opacity: 1;
+  }
+}
+
+.jobInfo > p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.jobInfoTitle {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 30px 24px 30px;
+  letter-spacing: 1px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #717071;
+  display: table;
+}
+.footer > .container {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  height: 100px;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.footerText {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footerButton {
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 18px;
+}
+.footerButton:hover {
+  background-color: #eeeeee;
+  text-decoration: none;
+  color: #717071;
+}
+
+@media (min-width: 768px) {
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .cover-container {
+    width: 100%;
+  }
+  .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-items: center;
+            align-items: center;
+  }
+  .prosBlockRow {
+    -webkit-align-items: stretch;
+            align-items: stretch;
+  }
+  .benefitBlockRow {
+    -webkit-align-items: flex-start;
+            align-items: flex-start;
+  }
+  .jobRow {
+    -webkit-align-items: stretch;
+            align-items: stretch;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .jobCol {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  .jobInfo {
+    top: 0;
+    height: auto;
+    opacity: 0;
+    padding: 40px;
+    text-align: left;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .jobImageLayer:hover .jobInfo {
+    opacity: 1;
+  }
+  .jobInfo > p {
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 1280px) {
+  .introBlockRow {
+    margin: 0 100px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .jobInfo {
+    height: auto;
+  }
+  .prosText {
+    padding: 30px 60px 40px 60px;
+  }
+}
+@media (max-width: 767px) {
+  .site-wrapper {
+    background: linear-gradient(transparent, #000000), image-url('cover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+  .breakShow {
+    display: inline;
+  }
+  .prosBlockRow {
+    display: block;
+  }
+  .prosLeadIcon {
+    left: 48%;
+    right: 48%;
+    bottom: 0px;
+    width: 4%;
+    -webkit-transform: translateY(33px);
+  }
+  .prosText {
+    padding: 20px 150px 40px 150px;
+  }
+  .introText {
+    padding: 0 150px;
+  }
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 150px;
+  }
+  .jobInfoTitle {
+    padding-top: 300px;
+  }
+  .jobInfo > p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .footer > .container {
+    height: 150px;
+  }
+  .footerButton {
+    margin: 0;
+    margin-top: 16px;
+  }
+
+  .defaultCoverText{
+    display: none;
+  }
+
+  .mask{
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .coverText {
+    width: 40%;
+  }
+  .introText {
+    padding: 0 100px;
+  }
+  .prosTitle > p {
+    font-size: 27px;
+  }
+  .prosLeadIcon {
+    left: 47%;
+    right: 47%;
+    bottom: 0px;
+    width: 6%;
+    -webkit-transform: translateY(35px);
+  }
+  .prosText {
+    padding: 20px 100px 40px 100px;
+  }
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 100px;
+  }
+  .jobInfo {
+    height: auto;
+  }
+}
+@media (max-width: 418px) {
+  p {
+    font-size: 12px;
+  }
+  .breakShowXS {
+    display: inline;
+  }
+  .introImage {
+    width: 30%;
+  }
+  .introText {
+    padding: 0 40px 0 50px;
+  }
+  .prosBlockTitleRow {
+    padding: 45px 15px 60px 15px;
+  }
+  .prosTitle > p {
+    font-size: 24px;
+  }
+  .prosLeadIcon {
+    -webkit-transform: translateY(25px);
+  }
+  .prosText {
+    padding: 20px 45px 40px 50px;
+  }
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 45px 0px 50px;
+  }
+  .jobInfo {
+    height: auto;
+  }
+  .coverText {
+    width: 50%;
+  }
+  .majorTitle {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+  .minorTitle {
+    font-size: 16px;
+  }
+  .footerText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .jobInfo {
+    height: auto;
+  }
+  .jobInfoTitle {
+    padding-top: 250px;
+  }
+  .prosTitle > p {
+    font-size: 19px;
+  }
+}
+
+.jobImageLayer{
+  position: relative;
+  padding: 12px 0;
+}
+
+.defaultCoverText{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: rgba(0,0,0,.2);
+}
+
+.defaultCoverText > h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}

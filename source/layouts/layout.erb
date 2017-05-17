@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta property="og:title" content="Colorgy 徵才 - We Want YOU!">
+    <meta property="og:description" content="歡樂一百點，徵的就是你！趕快進來看看有什麼職缺吧！">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://i.imgur.com/GHZEP2q.jpg?1">
+    <meta property="og:url" content="http://fishmonger-tapir-18044.bitballoon.com/">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Colorgy 徵才 - 和我們一起發揮創意！" %></title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag :bootstrap %>
+    <%= stylesheet_link_tag :ie10_viewport_bug_workaround %>
+    <%= stylesheet_link_tag :main %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <%= javascript_include_tag :bootstrap %>
+    <%= javascript_include_tag :ie10_viewport_bug_workaround %>
+    <%= favicon_tag 'favicon.png' %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>
